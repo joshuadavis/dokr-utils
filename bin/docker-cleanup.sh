@@ -11,3 +11,4 @@ docker volume prune -f || die "Volume cleanup failed!"
 
 docker network prune -f || die "Network cleanup failed!"
 
+docker image prune -f || die "Image cleanup failed!"
